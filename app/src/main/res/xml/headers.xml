@@ -1,0 +1,9 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.unitechstudio.voicenotification.activities.FeaturePreferenceFragment"
+        android:title="Feature">
+        <extra
+            android:name="category"
+            android:value="category_general"/>
+    </header>
+</preference-headers>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name_launcher">Voice Notification</string>
+    <string name="title_activity_featurs">Features</string>
+    <string name="title_activity_selectapp">Applications</string>
+    <string name="intro_select_app_to_speak_notifications">Select which apps you want to speak notifications</string>
+    <string name="intro_manage_feature">Select which features you want to use</string>
+    <string name="speak_sms_incoming">Speak SMS contents when incoming.</string>
+    <string name="speak_call_incoming">Speak the caller\'s name when ringing.</string>
+    <string name="speak_app_notifications">Speak when app notifications appear. Even you can hear Facebook messenger chat with unseen and other apps</string>
+    <string name="speak_clipboard">Speak the text when you copy.</string>
+    <string name="only_speak_when_earphones_connected">Only speak when earphones connected.</string>
+    <string name="shake_to_turnoff_speaking">Shake to turn off speaking.</string>
+    <string name="manage_app_text">Manage apps</string>
+    <string name="manage_feature_text">Manage features</string>
+    <string name="runtime_permission_go_settings_msg">Unable to open Voice Notification. Tab SETTINGS, go to Application Info > Permissions, then allow the following permissions and try again:</string>
+    <string name="runtime_permission_request_msg">Voice Notification needs the following permissions. Please accept them.</string>
+    <string name="cant_open">Cannot open %s</string>
+    <string name="opening">Opening file…</string>
+    <string name="scroll_to_bottom">To bottom</string>
+    <string name="scroll_to_top">To top</string>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome">Welcome</string>
+    <string name="privacy_policy_url">https://unitechofficial.github.io/voice_notification_privacy_policy.html</string>
+
+    <!--<string name="banner_home_footer">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="ads_app_id">ca-app-pub-9267540560139197~1479571869</string>-->
+    <string name="banner_home_footer">/6499/example/banner</string>
+    <string name="banner_home_center">/424536528,22838503498/1533615_banner_300x250_com.unitechstudio.voicenotification</string>
+
+</resources>

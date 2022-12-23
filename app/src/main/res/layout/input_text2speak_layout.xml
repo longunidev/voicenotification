@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/TextViewHeadingSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Speak what you want" />
+
+        <View
+            style="@style/horizontal_divider_style"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtSpeakText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/input_text2speak_style"
+        android:gravity="top"
+        android:hint="Paste some texts here and speak"
+        android:maxHeight="180dp"
+        android:minHeight="150dp"
+        android:overScrollMode="always"
+        android:padding="10dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btSpeakText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak" />
+
+        <Button
+            android:id="@+id/btStopSpeaking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+    </LinearLayout>
+
+
+</LinearLayout>

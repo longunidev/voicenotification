@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fafafa</color>
+    <color name="colorPrimaryDark">#d1d1d1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#252525</color>
+    <color name="color_white_primary">#fafafa</color>
+    <color name="color_action_bar_text">#3a3a3a</color>
+    <color name="color_divider_dark">#d4d4d4</color>
+    <color name="color_divider_light">#e6e6e6</color>
+    <color name="listview_app_title_color">#252525</color>
+    <color name="switch_button_color">#0E5AA4</color>
+    <color name="intro_content_color">#505050</color>
+    <color name="menu_color">#499ebd</color>
+    <color name="transparent">#00000000</color>
+    <color name="edit_text_textcolor_default">#252525</color>
+    <color name="dialog_permission_item_icon">#919799</color>
+    <color name="welcome_text_color">#cdcdcd</color>
+</resources>

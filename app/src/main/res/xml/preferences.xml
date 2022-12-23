@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="Manage features">
+        <com.android.widgets.preferences.switches.SwitchPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_sms"
+            android:key="switch_preference_enable_sms_speaking"
+            android:summary="@string/speak_sms_incoming"
+            android:title="Messages"/>
+
+        <com.android.widgets.preferences.switches.SwitchPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_call"
+            android:key="switch_preference_enable_call_speaking"
+            android:summary="@string/speak_call_incoming"
+            android:title="Calls"/>
+
+        <com.android.widgets.preferences.switches.SwitchPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_notification"
+            android:key="switch_preference_enable_notification_speaking"
+            android:summary="@string/speak_app_notifications"
+            android:title="App notification"/>
+
+        <com.android.widgets.preferences.switches.SwitchPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_clipboard"
+            android:key="switch_preference_enable_clipboard_speaking"
+            android:summary="@string/speak_clipboard"
+            android:title="Clipboard"/>
+
+        <com.android.widgets.preferences.switches.SwitchPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_shake"
+            android:key="switch_preference_enable_shake_to_turnoff_speaking"
+            android:summary="@string/shake_to_turnoff_speaking"
+            android:title="Shake"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preferences_category"
+        android:title="General">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listSpeechRate"
+            android:entryValues="@array/listSpeechRateValue"
+            android:icon="@drawable/ic_speech_rate"
+            android:key="speechRate"
+            android:layout="@layout/preference"
+            android:summary="Speed at which the text is spoken."
+            android:title="Speech Rate"/>
+        <PreferenceScreen
+            android:icon="@drawable/ic_listen"
+            android:key="listenToAnExample"
+            android:layout="@layout/preference"
+            android:summary="Play short demonstration of speech synthesis."
+            android:title="Listen to an example"/>
+        <PreferenceScreen
+            android:icon="@drawable/ic_reviews"
+            android:key="rating"
+            android:layout="@layout/preference"
+            android:summary="@null"
+            android:title="Vote the app 5 stars"/>
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_privacy_policy"
+            android:key="privacy_policy"
+            android:layout="@layout/preference"
+            android:summary="@null"
+            android:title="Privacy policy"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

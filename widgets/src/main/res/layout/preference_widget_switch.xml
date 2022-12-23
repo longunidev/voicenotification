@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout used by SwitchPreference for the switch widget style. This is inflated
+     inside android.R.layout.preference. -->
+<!--<android.support.v7.widget.SwitchCompat xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:id="@+id/switchWidget"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:background="@null"-->
+<!--android:clickable="false"-->
+<!--android:focusable="false"/>-->
+
+
+<com.kyleduo.switchbutton.SwitchButton xmlns:android="http://schemas.android.com/apk/res/android"
+                                       xmlns:app="http://schemas.android.com/apk/res-auto"
+                                       android:id="@+id/switchWidget"
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:background="@null"
+                                       android:clickable="false"
+                                       android:focusable="false"
+                                       app:kswTintColor="@color/switch_button_color"/>
+
+

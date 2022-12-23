@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Widgets</string>
+    <string name="asb_switch_on">ON</string>
+    <string name="asb_switch_off">OFF</string>
+
+    <!-- Toasty values -->
+    <string name="toast_message">Toast message</string>
+</resources>
